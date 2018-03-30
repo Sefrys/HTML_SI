@@ -2,20 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IZ | Contact</title>
-    <link rel="stylesheet" href="resources/css/main.css">
+    <title>The New World Order</title>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="resources/css/base.css">
+    <link rel="stylesheet" href="resources/css/flexbox.css">
 </head>
 <body>
-<header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
-<div class="content">
 
+<header class="main-header">
+    <h1 class="name"><a href="#">The NWO</a></h1>
+    <ul class="main-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<div class="banner">
+    <img class="logo" src="resources/images/logoSpaceship.svg" alt="Spaceship">
+    <h1 class="headline">First Contact</h1>
+    <span class="tagline">If you need anything, just ask!</span>
 </div>
+
+<div class="row">
+
+    <div class="primary col">
+        <h2>Contact Info</h2>
+        <ul>
+            <li><strong>Mobile:</strong> XXX-XXX-XXX</li>
+            <li><strong>Email:</strong> fakeemail@gmail.com</li>
+        </ul>
+        <img class="feat-img" src="resources/images/moreSpace.svg" alt="Need More Space?">
+    </div>
+
+    <div class="secondary col">
+        <h2>Any questions?</h2>
+        <div class="contactForm">
+            <form id="contactForm" method="post">
+                <input name="name" type="text" class="formControl" placeholder="Your Name" required>
+                <input name="email" type="email" class="formControl" placeholder="Your Email" required>
+                <textarea name="message" class="formControl" placeholder="Message" rows="4"></textarea>
+                <input type="submit" class="formControl submit" value="SEND MESSAGE">
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+<footer class="main-footer">
+    <span>&copy;2018 Ireneusz Żagan</span>
+</footer>
 </body>
 </html>
-
